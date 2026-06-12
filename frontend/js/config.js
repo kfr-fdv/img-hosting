@@ -1,5 +1,5 @@
 (() => {
-    const onNginx = location.port === '' || location.port === '80';
+    const onNginx = location.port === '' || location.port === '80' || location.port === '8080';
     window.APP_CONFIG = {
         baseUrl: onNginx ? '' : 'http://localhost:8000',
     };

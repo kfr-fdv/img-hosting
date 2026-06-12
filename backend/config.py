@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     logs_dir: str
     
     class Config:
-        env_file = ".env"
+        env_file = "../.env"
         extra = "ignore"
     
 
