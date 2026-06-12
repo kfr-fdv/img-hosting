@@ -7,7 +7,7 @@
 - **Backend:** Python 3.12 (вбудований HTTP-сервер, без фреймворків)
 - **База даних:** PostgreSQL
 - **Frontend:** HTML / CSS / Vanilla JavaScript
-- **Інфраструктура:** Docker, Docker Compose, Nginx (балансувальник навантаження)
+- **Інфраструктура:** Docker, Docker Compose, Nginx (reverse proxy)
 
 ## Функціонал
 
